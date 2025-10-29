@@ -207,6 +207,21 @@
         }
         .btn-cv i { font-size: .95em; }
         
+        /* Liens plus visibles sur fond gris (veille) */
+        .veille-content a {
+            color: #00d4ff; /* bleu cyan vif, très lisible sur #6c757d */
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        .veille-content a:hover,
+        .veille-content a:focus {
+            color: #7ae9ff;
+            text-decoration: underline;
+        }
+        .veille-content a:active {
+            color: #00b8e6;
+        }
+        
     </style>
 
 </head>
@@ -589,7 +604,7 @@
             <div class="row portfolio ">
                 <!-- Single Portfolio -->
                 <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/windowsicone.jpg)">
+                    <div class="single-portfolio" style="background-image: url(assets/images/windowsicone.png)">
                         <div class="portfolio-icon text-center">
                             <a href="assets/windowsserver.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
                         </div>
